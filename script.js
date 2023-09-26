@@ -28,7 +28,6 @@ function onInc(){
 
 
 function onReset(){
-    counterNumber = 0;
+    counterNumber.textContent = 0;
     counterNumber.style.color = "black";
-    document.getElementById("Bg-Cont").style.backgroundColor = "red";
 }
